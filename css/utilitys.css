@@ -1,0 +1,25 @@
+h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: red;
+}
+h2 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+}
+p {
+    text-align: justify;
+    hyphens: auto;
+}
+
+.icons {
+    margin: 0;
+    width: 40px;
+    height: auto;
+}
+.nav_home {
+    height: 25px;
+    padding: 11px 10px;
+}
