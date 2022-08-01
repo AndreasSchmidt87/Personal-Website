@@ -1,89 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&family=Rubik:wght@300;700&display=swap');
 
-* {
-    font-family: 'Rubik', sans-serif;
-    padding: 0;
-    margin: 0;
-    border: black 1px solid;
-}
-.body {
-    background-color: black;
+/*---------------------------*/
 
-}
-.header {
-    display: flex;
-    background-color: black;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    font-size: 30px;
-    background-image: url("https://images.unsplash.com/photo-1614518921450-1d5431a02324?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGNvbW1lcmNpYWwlMjB1c2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-}
-.main {
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-.nav {
-    display: flex;
-    margin-left: 20px;
-}
-.article {
-    margin: 20px;
-    height: 100vh; 
-}
-.footer {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-    background-color: #303030;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-h1 {
-    font-family: 'Rubik Moonrocks', cursive;
-    color: red;
-    text-align: left;
-}
-h2 {
-    text-decoration: underline;
-    font-weight: bold;
-}
-a {
-    text-decoration: none;
-}
-p {
-    text-align: justify;
-    hyphens: auto;
-}
-.icons {
-    margin: 0;
-    width: 40px;
-    height: auto;
-}
-.home {
-    height: 13px;
-}
+@import "./components/_base.css";
+
+/*---------------------------*/
+
+@import "./components/_list.css";
+
+/*---------------------------*/
+
+@import "./components/_navbar.css";
+ 
+/*---------------------------*/
+
+@import "./utilitys.css";
