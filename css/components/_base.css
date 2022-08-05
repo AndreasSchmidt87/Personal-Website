@@ -6,7 +6,7 @@
     border: black 1px solid;
 }
 body {
-    background-color: black;
+    background: linear-gradient(black,#303030);
 
 }
 header {
