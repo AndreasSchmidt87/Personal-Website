@@ -23,3 +23,7 @@ p {
     height: 25px;
     padding: 11px 10px;
 }
+
+.hidden {
+    overflow: hidden;
+}
