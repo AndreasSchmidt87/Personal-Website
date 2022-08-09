@@ -2,14 +2,15 @@
 .nav {
     display: flex;
     position: sticky;
+    width: 100%;
     top: 0;
+    background: linear-gradient(black,#303030);
+    border: solid 2px black;
 }
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    background: linear-gradient(black,#303030);
   }
   
   li {
@@ -18,6 +19,7 @@ ul {
     position: relative;
     text-decoration: none;
     transition-duration: 0.5s;
+    border: solid 2px black;
   }  
   li a {
     display: block;
